@@ -1,0 +1,44 @@
+@use "@/sass/fragments/palette";
+@use "@/sass/fragments/font";
+
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+
+* {
+  outline: none;
+  color: palette.$text-primary;
+}
+
+html,
+body,
+#app { height: 100%; }
+
+body {
+  font-family: font.$app-family;
+  background-color: palette.$app-primary;
+}
+
+#app {
+  display: flex;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+a,
+img { -webkit-user-drag: none; }
+
+a { text-decoration: none; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea::placeholder,
+input::placeholder { color: palette.$text-primary; }
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  width: 0;
+  background: transparent;
+}
