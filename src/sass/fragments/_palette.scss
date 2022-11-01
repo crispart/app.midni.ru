@@ -1,17 +1,25 @@
-$app-primary: #512DA8;
-$app-primary-darken: #311B92;
-$app-primary-lighten: #673AB7;
+$primary: #222222;
+$primary-dark: #181818;
+$primary-light: #313131;
 
-$app-secondary: #00796B;
-$app-secondary-darken: #004D40;
-$app-secondary-lighten: #009688;
+$secondary: #512DA8;
+$secondary-dark: #311B92;
+$secondary-light: #673AB7;
 
-$app-background: #FFFFFF;
-$app-surface: #FFFFFF;
-$app-error: #B00020;
+$background: #ffffff;
+$surface: #f3f3f3;
+$separator: #f3f3f3;
 
-$on-primary: #FFFFFF;
-$on-secondary: #000000;
-$on-background: #000000;
-$on-surface: #000000;
-$on-error: #000000;
+$success: #88c459;
+$warning: #ffd137;
+$error: #b00020;
+
+$on-primary: #f3f3f3;
+$on-secondary: #222222;
+
+$on-background: #222222;
+$on-surface: #222222;
+
+$on-success: #222222;
+$on-warning: #222222;
+$on-error: #222222;
