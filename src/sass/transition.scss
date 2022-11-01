@@ -1,5 +1,12 @@
 $duration-fast: 250ms;
 
+/* вращение вокруг своей оси */
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 /* простое проявление */
 
 .fade-enter-active,
