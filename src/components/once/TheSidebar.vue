@@ -34,11 +34,11 @@ const routes = [
 
 .sidebar {
   display: flex;
+  grid-area: sidebar;
 
   &__navigation {
     display: flex;
     flex-direction: column;
-    width: 250px;
     padding: 0 24px;
     border-right: 2px solid palette.$primary;
   }
