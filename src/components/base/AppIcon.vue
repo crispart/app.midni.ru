@@ -25,8 +25,8 @@ const props = withDefaults(
 );
 
 const sizeNumber = computed<number>(() => {
-  if (props.size === SizeName.SMALL) return 20;
-  if (props.size === SizeName.LARGE) return 30;
+  if (props.size === SizeName.SMALL) return 16;
+  if (props.size === SizeName.LARGE) return 32;
   return 24;
 });
 </script>
@@ -34,5 +34,5 @@ const sizeNumber = computed<number>(() => {
 <style lang="scss" scoped>
 @use "@/sass/fragments/palette";
 
-.app-icon { stroke: palette.$on-surface; }
+.icon { stroke: palette.$on-surface; }
 </style>
