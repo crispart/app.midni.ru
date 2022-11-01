@@ -1,0 +1,20 @@
+$duration-fast: 250ms;
+
+/* простое проявление */
+
+.fade-enter-active,
+.fade-leave-active { transition: opacity $duration-fast ease; }
+
+.fade-enter-from,
+.fade-leave-to { opacity: 0; }
+
+/* проявление с подъёмом */
+
+.fade-up-enter-active,
+.fade-up-leave-active { transition: opacity $duration-fast ease, transform $duration-fast ease; }
+
+.fade-up-enter-from,
+.fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}
