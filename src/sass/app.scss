@@ -5,18 +5,16 @@
 
 * {
   outline: none;
-  color: palette.$on-primary;
+  color: palette.$on-surface;
   font-family: font.$family;
+  font-size: font.$size-m;
 }
 
 html,
 body,
 #app { height: 100%; }
 
-#app {
-  display: flex;
-  user-select: none;
-}
+#app { user-select: none; }
 
 a,
 img { -webkit-user-drag: none; }
@@ -25,9 +23,9 @@ a { text-decoration: none; }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
 textarea::placeholder,
-input::placeholder { color: palette.$on-primary; }
+input::placeholder { color: palette.$on-surface; }
