@@ -40,7 +40,7 @@ const routes = [
     flex-direction: column;
     width: 250px;
     padding: 0 24px;
-    border-right: 2px solid palette.$app-primary;
+    border-right: 2px solid palette.$primary;
   }
 }
 </style>
