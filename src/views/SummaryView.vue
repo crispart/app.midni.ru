@@ -7,7 +7,6 @@
   <div class="user">
     <pre v-if="isAuthenticated">
       <code>{{ user }}</code>
-      <code>{{ idTokenClaims }}</code>
     </pre>
   </div>
 </template>
@@ -20,7 +19,6 @@ const {
   logout,
   user,
   isAuthenticated,
-  idTokenClaims,
 } = useAuth0();
 
 const accountIn = () => {

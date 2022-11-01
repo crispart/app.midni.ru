@@ -12,7 +12,7 @@
   </aside>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 const routes = [
   {
     path: '/',
@@ -29,7 +29,7 @@ const routes = [
 ];
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 @use "@/sass/fragments/palette";
 
 .sidebar {
@@ -40,7 +40,7 @@ const routes = [
     flex-direction: column;
     width: 250px;
     padding: 0 24px;
-    border-right: 2px solid palette.$app-primary-darken;
+    border-right: 2px solid palette.$app-primary;
   }
 }
 </style>
