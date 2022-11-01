@@ -1,12 +1,14 @@
 <template>
   <TheSidebar/>
   <main>
-    <router-view/>
+    <RouterView/>
   </main>
+  <TheAuthOverlay/>
 </template>
 
 <script setup lang="ts">
 import TheSidebar from '@/components/once/TheSidebar.vue';
+import TheAuthOverlay from '@/components/once/TheAuthOverlay.vue';
 </script>
 
 <style lang="scss" scoped>
