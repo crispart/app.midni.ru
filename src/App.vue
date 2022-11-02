@@ -31,6 +31,7 @@ const { isAppInitialized } = useAppInitialization();
   grid-template-areas:
     "sidebar header"
     "sidebar main";
+  column-gap: 24px;
   height: 100%;
 
   &__main { grid-area: main; }
