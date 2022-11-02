@@ -34,5 +34,8 @@ const sizeNumber = computed<number>(() => {
 <style lang="scss" scoped>
 @use "@/sass/fragments/palette";
 
-.icon { stroke: palette.$on-surface; }
+.icon {
+  stroke: palette.$on-surface;
+  transition: stroke 250ms ease;
+}
 </style>
