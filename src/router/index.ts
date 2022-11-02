@@ -15,9 +15,15 @@ const routes: Array<RouteRecordRaw> = [
     beforeEnter: authGuard,
   },
   {
-    path: '/deal',
-    name: 'deal',
-    component: () => import(/* webpackChunkName: "deal" */ '../views/DealView.vue'),
+    path: '/sell',
+    name: 'sell',
+    component: () => import(/* webpackChunkName: "sell" */ '../views/SellView.vue'),
+    beforeEnter: authGuard,
+  },
+  {
+    path: '/help',
+    name: 'help',
+    component: () => import(/* webpackChunkName: "help" */ '../views/HelpView.vue'),
     beforeEnter: authGuard,
   },
 ];
