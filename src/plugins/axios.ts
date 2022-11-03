@@ -11,8 +11,8 @@ const webClient: AxiosInstance = axios.create({
 });
 
 webClient.interceptors.request.use(
-  (request: AxiosRequestConfig) => request,
-  (error) => Promise.reject(error),
+  (request: AxiosRequestConfig) => (request),
+  (error) => (Promise.reject(error)),
 );
 
 export default webClient;
