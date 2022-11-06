@@ -2,7 +2,7 @@
   <svg
     :height="sizeNumber"
     :width="sizeNumber"
-    class="icon"
+    class="app-icon"
     fill="none"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const sizeNumber = computed<number>(() => {
 <style lang="scss" scoped>
 @use "@/sass/fragments/palette";
 
-.icon {
+.app-icon {
   stroke: palette.$on-surface;
   transition: stroke 250ms ease;
 }

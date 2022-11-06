@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="the-header">
     Dashboard
   </header>
 </template>
@@ -8,5 +8,5 @@
 </script>
 
 <style lang="scss" scoped>
-.header { grid-area: header; }
+.the-header { grid-area: header; }
 </style>

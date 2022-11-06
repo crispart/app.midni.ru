@@ -2,7 +2,7 @@
   <Transition :name="TransitionName.FADE">
     <div
       v-if="!isAppInitialized"
-      class="splashscreen"
+      class="the-splashscreen"
     >
       <AppIcon
         :path="IconPath.DISCOVER_1"
@@ -27,7 +27,7 @@ const { isAppInitialized } = useAppInitialization();
 @use "@/sass/fragments/palette";
 @import "@/sass/transition";
 
-.splashscreen {
+.the-splashscreen {
   position: fixed;
   display: flex;
   align-items: center;

@@ -1,5 +1,5 @@
 <template>
-  <div class="account-selector">
+  <div class="the-account-selector">
     <img
       :src="user.picture"
       alt="Account avatar"
@@ -28,7 +28,7 @@ const { user } = useAuth0();
 @use "@/sass/fragments/font";
 @use "@/sass/fragments/palette";
 
-.account-selector {
+.the-account-selector {
   display: grid;
   grid-template-columns: 40px auto 16px;
   grid-template-areas:

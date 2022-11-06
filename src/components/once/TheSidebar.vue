@@ -1,5 +1,5 @@
 <template>
-  <aside class="sidebar">
+  <aside class="the-sidebar">
     <!-- селектор организаций -->
     <TheCompanySelector/>
     <!-- навигация -->
@@ -93,7 +93,7 @@ const bottomNavigationRoutes: Array<RouteInterface> = [
 @use "@/sass/fragments/palette";
 @use "@/sass/fragments/font";
 
-.sidebar {
+.the-sidebar {
   display: flex;
   grid-area: sidebar;
   flex-direction: column;

@@ -1,5 +1,5 @@
 <template>
-  <div class="company-selector">
+  <div class="the-company-selector">
     <img
       alt="Company avatar"
       class="company-selector__avatar"
@@ -25,7 +25,7 @@ import SizeName from '@/constants/enum/SizeName';
 @use "@/sass/fragments/font";
 @use "@/sass/fragments/palette";
 
-.company-selector {
+.the-company-selector {
   display: grid;
   grid-template-columns: 40px auto 16px;
   grid-template-areas:
