@@ -7,7 +7,7 @@
       <AppIcon
         :path="IconPath.DISCOVER_1"
         :size="SizeName.LARGE"
-        class="splashscreen__spinner"
+        class="the-splashscreen__spinner"
       />
     </div>
   </Transition>

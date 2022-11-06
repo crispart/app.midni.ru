@@ -2,15 +2,15 @@
   <div class="the-company-selector">
     <img
       alt="Company avatar"
-      class="company-selector__avatar"
+      class="the-company-selector__avatar"
       src="@/assets/img/company-avatar.jpg"
     >
-    <span class="company-selector__name">Midni Inc.</span>
-    <span class="company-selector__label">Premium</span>
+    <span class="the-company-selector__name">Midni Inc.</span>
+    <span class="the-company-selector__label">Premium</span>
     <AppIcon
       :path="IconPath.ARROW_BOTTOM"
       :size="SizeName.SMALL"
-      class="company-selector__icon"
+      class="the-company-selector__icon"
     />
   </div>
 </template>

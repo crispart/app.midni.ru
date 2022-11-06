@@ -3,14 +3,14 @@
     <img
       :src="user.picture"
       alt="Account avatar"
-      class="account-selector__avatar"
+      class="the-account-selector__avatar"
     >
-    <span class="account-selector__name">{{ user.given_name }} {{ user.family_name }}</span>
-    <span class="account-selector__label">{{ user.email }}</span>
+    <span class="the-account-selector__name">{{ user.given_name }} {{ user.family_name }}</span>
+    <span class="the-account-selector__label">{{ user.email }}</span>
     <AppIcon
       :path="IconPath.ARROW_BOTTOM"
       :size="SizeName.SMALL"
-      class="account-selector__icon"
+      class="the-account-selector__icon"
     />
   </div>
 </template>
