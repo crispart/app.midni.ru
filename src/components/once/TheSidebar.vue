@@ -13,8 +13,8 @@
           class="navigation-item"
         >
           <AppIcon
+            :path="route.icon"
             class="navigation-item__icon"
-            :name="route.icon"
           />
           <span class="navigation-item__label">{{ route.label }}</span>
         </router-link>
@@ -28,8 +28,8 @@
           class="navigation-item"
         >
           <AppIcon
+            :path="route.icon"
             class="navigation-item__icon"
-            :name="route.icon"
           />
           <span class="navigation-item__label">{{ route.label }}</span>
         </router-link>
@@ -43,7 +43,7 @@
 <script lang="ts" setup>
 import TheCompanySelector from '@/components/once/TheCompanySelector.vue';
 import TheAccountSelector from '@/components/once/TheAccountSelector.vue';
-import IconName from '@/constants/enum/IconName';
+import IconPath from '@/constants/enum/IconPath';
 import RouteInterface from '@/interfaces/RouteInterface';
 import AppIcon from '@/components/base/AppIcon.vue';
 
@@ -51,27 +51,27 @@ const topNavigationRoutes: Array<RouteInterface> = [
   {
     path: '/',
     label: 'Сводка',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
   {
     path: '/product',
     label: 'Товары',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
   {
     path: '/sell',
     label: 'Продажи',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
   {
     path: '/sell',
     label: 'Поставки',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
   {
     path: '/sell',
     label: 'Склад',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
 ];
 
@@ -79,12 +79,12 @@ const bottomNavigationRoutes: Array<RouteInterface> = [
   {
     path: '/help',
     label: 'Помощь',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
   {
     path: '/help',
     label: 'Настройки',
-    icon: IconName.INSTAGRAM,
+    icon: IconPath.INSTAGRAM,
   },
 ];
 </script>

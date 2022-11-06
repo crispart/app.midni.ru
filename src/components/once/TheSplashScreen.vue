@@ -5,7 +5,7 @@
       class="splashscreen"
     >
       <AppIcon
-        :name="IconName.DISCOVER_1"
+        :path="IconPath.DISCOVER_1"
         :size="SizeName.LARGE"
         class="splashscreen__spinner"
       />
@@ -16,7 +16,7 @@
 <script lang="ts" setup>
 import TransitionName from '@/constants/enum/TransitionName';
 import AppIcon from '@/components/base/AppIcon.vue';
-import IconName from '@/constants/enum/IconName';
+import IconPath from '@/constants/enum/IconPath';
 import useAppInitialization from '@/composables/appInitialization';
 import SizeName from '@/constants/enum/SizeName';
 

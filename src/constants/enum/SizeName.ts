@@ -1,7 +1,7 @@
-const SizeName = {
-  SMALL: 'SMALL',
-  MEDIUM: 'MEDIUM',
-  LARGE: 'LARGE',
-} as const;
+enum SizeName {
+  SMALL,
+  MEDIUM,
+  LARGE,
+}
 
 export default SizeName;

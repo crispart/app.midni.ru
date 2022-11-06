@@ -1,14 +1,14 @@
 <template>
   <div class="account-selector">
     <img
+      :src="user.picture"
       alt="Account avatar"
       class="account-selector__avatar"
-      :src="user.picture"
     >
     <span class="account-selector__name">{{ user.given_name }} {{ user.family_name }}</span>
     <span class="account-selector__label">{{ user.email }}</span>
     <AppIcon
-      :name="IconName.ARROW_BOTTOM"
+      :path="IconPath.ARROW_BOTTOM"
       :size="SizeName.SMALL"
       class="account-selector__icon"
     />
@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import AppIcon from '@/components/base/AppIcon.vue';
-import IconName from '@/constants/enum/IconName';
+import IconPath from '@/constants/enum/IconPath';
 import SizeName from '@/constants/enum/SizeName';
 import { useAuth0 } from '@auth0/auth0-vue';
 

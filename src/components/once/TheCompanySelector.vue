@@ -8,7 +8,7 @@
     <span class="company-selector__name">Midni Inc.</span>
     <span class="company-selector__label">Premium</span>
     <AppIcon
-      :name="IconName.ARROW_BOTTOM"
+      :path="IconPath.ARROW_BOTTOM"
       :size="SizeName.SMALL"
       class="company-selector__icon"
     />
@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import AppIcon from '@/components/base/AppIcon.vue';
-import IconName from '@/constants/enum/IconName';
+import IconPath from '@/constants/enum/IconPath';
 import SizeName from '@/constants/enum/SizeName';
 </script>
 

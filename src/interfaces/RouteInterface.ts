@@ -1,9 +1,9 @@
-import IconName from '@/constants/enum/IconName';
+import IconPath from '@/constants/enum/IconPath';
 
 interface RouteInterface {
   path: string;
   label: string;
-  icon: keyof typeof IconName;
+  icon: IconPath;
 }
 
 export default RouteInterface;

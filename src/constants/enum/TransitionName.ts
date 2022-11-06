@@ -1,8 +1,6 @@
-const TransitionName = {
-  FADE: 'fade',
-  FADE_UP: 'fade-up',
-} as const;
-
-type TransitionName = keyof typeof TransitionName;
+enum TransitionName {
+  FADE = 'fade',
+  FADE_UP = 'fade-up',
+}
 
 export default TransitionName;

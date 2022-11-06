@@ -1,12 +1,12 @@
 <template>
   <svg
-    class="icon"
-    viewBox="0 0 24 24"
     :height="sizeNumber"
     :width="sizeNumber"
+    class="icon"
     fill="none"
+    viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
-    v-html="IconPath[name]"
+    v-html="path"
   >
   </svg>
 </template>
@@ -18,8 +18,8 @@ import SizeName from '@/constants/enum/SizeName';
 
 const props = withDefaults(
   defineProps<{
-    name: keyof typeof IconPath;
-    size?: keyof typeof SizeName;
+    path: IconPath;
+    size?: SizeName;
   }>(),
   { size: SizeName.MEDIUM },
 );
