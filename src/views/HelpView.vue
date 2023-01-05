@@ -4,7 +4,7 @@
     <div class="icon-set">
       <div
         v-for="icon in iconSet"
-        :key="icon"
+        :key="icon[0]"
         class="icon"
       >
         <AppIcon :path="icon[1]"/>
